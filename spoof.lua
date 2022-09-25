@@ -1,4 +1,3 @@
-local Players = game:GetService("Players")
 local hum = Players.LocalPlayer.Character:WaitForChild("Humanoid")
 
 local SpoofTable = {
