@@ -27,7 +27,7 @@ __newindex = hookmetamethod(game, "__newindex", function(t, k, v)
         SpoofTable[k] = v
 
         -- // Disallow the set
-        return v
+        return
     end
     
     -- //
