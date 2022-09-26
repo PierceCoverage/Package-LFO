@@ -1,4 +1,4 @@
-local hum = Players.LocalPlayer.Character:WaitForChild("Humanoid")
+local hum = game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid")
 
 local SpoofTable = {
 	WalkSpeed = hum.WalkSpeed,
